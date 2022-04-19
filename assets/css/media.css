@@ -1,0 +1,107 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1434px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  header .top .navbar .navbar-icon i {
+    margin-right: 20px;
+  }
+  header .top .navbar .collapse .navbar-nav .nav-item .nav-link {
+    margin-right: 40px;
+  }
+  .category-items .item {
+    margin: 10px;
+  }
+  .category .row .col-lg-6 .adidas {
+    margin-bottom: 15px;
+  }
+  .category-items .item-img img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    text-align: center;
+  }
+  footer .newsletter .payment {
+    justify-content: center;
+  }
+  .footer-top-details .location {
+    justify-content: center;
+  }
+  .footer-top-details .phone {
+    justify-content: center;
+  }
+  .footer-top-details .mail {
+    justify-content: center;
+  }
+  .category-items .item-img {
+    margin: 10px;
+  }
+  .latest .latest-img {
+    order: 3 !important;
+  }
+  .latest .itemsss {
+    order: 1 !important;
+  }
+  .latest .itemssss {
+    order: 2 !important;
+  }
+  .category-items .item-img img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .head-top {
+    margin: auto;
+  }
+  .head-top-left {
+    margin-bottom: 15px;
+  }
+  .featured-tab {
+    display: block !important;
+  }
+  .featured-tab .tabs ul {
+    flex-wrap: nowrap;
+  }
+  .featured .arrows {
+    display: flex;
+    justify-content: center;
+  }
+  .latest-item-txt {
+    padding-top: 0;
+  }
+  .latest-item {
+    display: block !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .featured-tab .tabs ul {
+    flex-wrap: wrap;
+  }
+  .featured-tab .nav .nav-item {
+    margin: 5px;
+  }
+  .latest-img-text h2 {
+    font-size: 30px !important;
+  }
+  .latest-img-text button {
+    width: auto;
+  }
+  .footer-btm .content {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
